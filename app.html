@@ -21,14 +21,22 @@
 
             </div>
             <div class="col">
-                <h5 class="border-bottom">Enter a word, sentence or phrase</h5>
+                <h6 class="border-bottom">Enter a word, sentence or phrase</h6>
                 <form>
-                    <input id="txt" type="text" aria-label="Enter a word, sentence or phrase"
-                    placeholder="Would I be a palindrome?" class="form-control mb-3">
-                    <button id="button" type="button" class="btn btn-warning">Reverse!</button>
+                    <input id="string" type="text" aria-label="Enter a word, sentence or phrase"
+                        placeholder="Would I be a palindrome?" class="form-control mb-3">
+                    <button id="button" type="button" class="btn btn-warning mb-5">Reverse!</button>
                 </form>
+                <div class="alert mt-5 invisible fade show" id="alert" role="alert">
+                    <h4 class="border-bottom"></h4>
+                    <p id="p">
+                        <!--Js will generate the reversed string here-->
+                    </p>
+                </div>
             </div>
+
         </div>
+    </div>
 
 
     </div>
